@@ -7,5 +7,17 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <groupId>mandeep.springlearning</groupId>
     <artifactId>mandeep-pet-clinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>pet-clinic-data</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
 </project>
