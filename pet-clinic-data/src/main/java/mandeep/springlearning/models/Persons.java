@@ -1,4 +1,4 @@
-package mandeep.springlearning.mandeeppetclinic.models;
+package mandeep.springlearning.models;
 
 public class Persons {
 
