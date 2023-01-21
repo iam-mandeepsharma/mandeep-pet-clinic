@@ -3,10 +3,11 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
+// this is domain script lanuage
 dependencyResolutionManagement {
     repositories {
         mavenCentral()
+
     }
 }
 
