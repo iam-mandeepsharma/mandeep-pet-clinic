@@ -11,8 +11,12 @@
 	<groupId>mandeep.springlearning</groupId>
 	<artifactId>mandeep-pet-clinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>mandeep-pet-clinic</name>
 	<description>Mandeep&apos;s project for pet clinic app</description>
+	<modules>
+		<module>pet-clinic-data</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
