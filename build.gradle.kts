@@ -14,9 +14,10 @@ allprojects {
 subprojects {
 
     apply {
-        plugin("org.springframework.boot")
+        plugin("base")
+        plugin("idea")
+        plugin("java")
         plugin("io.spring.dependency-management")
-        plugin("io.freefair.lombok")
     }
 
     afterEvaluate {

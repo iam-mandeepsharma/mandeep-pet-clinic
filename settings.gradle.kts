@@ -12,3 +12,4 @@ dependencyResolutionManagement {
 
 
 rootProject.name = "mandeep-pet-clinic"
+include(":pet-clinic-data")
