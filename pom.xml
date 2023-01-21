@@ -18,6 +18,13 @@
 		<module>pet-clinic-data</module>
 	</modules>
 	<properties>
+    <packaging>pom</packaging>
+    <name>mandeep-pet-clinic</name>
+	<description>Mandeep&apos;s project for pet clinic app</description>
+    <modules>
+        <module>pet-clinic-web</module>
+    </modules>
+    <properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
